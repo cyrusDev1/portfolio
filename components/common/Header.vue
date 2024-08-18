@@ -31,7 +31,7 @@
 import { ref } from 'vue';
 import Link from '~/components/ui/Link.vue';
 const links = ref([
-  { href: '#', name: 'About' },
+  { href: '#about', name: 'About' },
   { href: '#', name: 'Skills' },
   { href: '#', name: 'Work' },
   { href: '#', name: 'Contact' },
