@@ -12,8 +12,9 @@ export const theme = {
     colors: {
       green: '#64ffda',
       navy: '#0a192f',
-      'lightest-slate': '#ccd6f6',
       slate: '#8892b0',
+      'lightest-slate': '#ccd6f6',
+      'lightest-navy': '#233554',
     },
     fontFamily: {
       mono: ['SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', 'monospace'],

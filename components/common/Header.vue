@@ -4,7 +4,7 @@
       <a class="" href="/">
         <Icon
           name="tabler:hexagon-letter-c"
-          class="font-sans text-green text-5xl bg-green-800"
+          class="font-sans text-green text-5xl"
         />
       </a>
     </div>
@@ -32,9 +32,9 @@ import { ref } from 'vue';
 import Link from '~/components/ui/Link.vue';
 const links = ref([
   { href: '#about', name: 'About' },
-  { href: '#', name: 'Skills' },
-  { href: '#', name: 'Work' },
-  { href: '#', name: 'Contact' },
+  { href: '#skills', name: 'Skills' },
+  { href: '#work', name: 'Work' },
+  { href: '#contact', name: 'Contact' },
 ]);
 </script>
 

@@ -1,16 +1,6 @@
 <template>
   <div id="about" class="mt-20 space-y-8 pt-20 px-60 pb-40 text-white">
-    <div>
-      <div
-        class="p-2 flex items-center space-x-5 hover:text-green ease-out duration-150"
-      >
-        <div class="space-x-3">
-          <span class="text-xl text-green font-mono">01.</span>
-          <span class="text-3xl font-bold text-lightest-slate">About Me</span>
-        </div>
-        <div class="w-64 border-t border-lightest-slate h-1"></div>
-      </div>
-    </div>
+    <SectionHeader number="01" title="About Me" />
     <div class="flex gap-20 w-full">
       <div class="space-y-3 w-1/2">
         <p class="text-slate text-lg">
@@ -35,7 +25,7 @@
           that truly make a difference.
         </p>
       </div>
-      <div class="bg-red-500 relative cursor-pointer hover:shadow-3xl">
+      <div class="bg-red-500 relative cursor-pointer">
         <img
           class="w-full h-full object-cover relative z-10"
           src="~/assets/img/me.png"
@@ -49,3 +39,6 @@
     </div>
   </div>
 </template>
+<script setup>
+import SectionHeader from '~/components/ui/SectionHeader.vue';
+</script>
